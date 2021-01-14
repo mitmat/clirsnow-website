@@ -54,14 +54,19 @@ subtitle = ""
 ## Past
 
 
-The first Alpine wide analysis of station snow depth series, including more than 2000 stations from Austria, France, Germany, Italy, Slovenia, and Switzerland.
+The first Alpine wide analysis of station snow depth series. 
 
-[Open dashboard](/past-snow/)
+  - Includes more than 2000 stations from Austria, France, Germany, Italy, Slovenia, and Switzerland.
+  - Identified snow regions in the Alps that match climatic forcing
+  - Long-term trends over 1971-2019
+
+[View results in dashboard](/past-snow/)
 
 
 ## Present
 
-<a href="/" target="_blank">hello</a>
+...planned for summer 2021...
 
 ## Future
 
+...planned for fall 2021...

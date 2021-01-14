@@ -58,6 +58,6 @@ Combining in-situ observations, remote sensing, and climate models
 
 Post-doctoral fellowship funded by the EU Horizon 2020 Marie Skłodowska-Curie Actions
 
-October 2018 - June 2021 (part time; 24 months full time equivalent)
+October 2018 - September 2021 (part time; 24 months full time equivalent)
 
 
