@@ -11,7 +11,7 @@ summary:
 tags:
 - code
 title: R package that makes it easier to work with daily EURO-CORDEX RCM data
-url_code: "https://gitlab.inf.unibz.it/earth_observation_public/eurocordexr"
+url_code: "https://github.com/mitmat/eurocordexr"
 url_dataset: ""
 url_pdf: ""
 url_slides: ""
@@ -21,5 +21,5 @@ url_video: ""
 An R package to deal with large netcdf files, such as originating from the EURO-CORDEX RCMs. Works also for generic netcdf files. See the gitlab page for more information:
 
 
-[https://gitlab.inf.unibz.it/earth_observation_public/eurocordexr](https://gitlab.inf.unibz.it/earth_observation_public/eurocordexr)
+[https://github.com/mitmat/eurocordexr](https://github.com/mitmat/eurocordexr)
 
