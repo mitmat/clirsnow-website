@@ -1,0 +1,85 @@
+---
+authors:
+categories:
+date: "2021-03-22T00:00:00Z"
+draft: false
+featured: false
+image:
+  caption: "Snow cover duration from remote sensing"
+  focal_point: ""
+  placement: 2
+  preview_only: false
+lastmod: ""
+projects: []
+subtitle: "Overview of the coverage in press, online, and other media"
+summary: "Overview of the coverage in press, online, and other media"
+tags:
+title: "Media coverage: Alpine snow paper"
+---
+
+
+The [paper](/research/paper_alps_snow) on observed snow depth trends in the European Alps received wide international coverage in media, thanks to the Communication Department of Eurac and to [GSCC](https://gsccnetwork.org/).
+
+The official press release is available in [English](https://beta.eurac.edu/en/magazine/less-of-the-white-stuff-snow-cover-has-been-declining-in-the-alps), [German](https://beta.eurac.edu/de/magazine/studie-zeigt-rueckgang-der-schneebedeckung-in-den-alpen), and [Italian](https://beta.eurac.edu/it/magazine/sempre-meno-bianco-studio-mostra-calo-copertura-nevosa-sulle-alpi). 
+
+Partner institutions from Switzerland that were involved in the research posted [news](https://www.slf.ch/de/newsseiten/03-1/weniger-schnee-erste-alpenweite-analyse-von-schneehoehendaten.html) and a [blog article](https://www.meteoschweiz.admin.ch/home/aktuell/meteoschweiz-blog/meteoschweiz-blog.subpage.html/de/data/blogs/2021/3/weniger-schnee--erste-alpenweite-analyse-von-schne.html).
+
+The paper was selected as highlight paper by the journal The Cryosphere, and featured with a [news post](https://www.the-cryosphere.net/about/news_and_press/2021-03-18_observed-snow-depth-trends-in-the-european-alps-1971-to-2019.html).
+
+It has been featured in regional German television news (Rundschau, Bayerischer Rundfunk, 18.03.2021 16:00) and followed up by an interview in local South Tyrolean radio (Frühstücksradio, RAI Südtirol, 22.03.2021 8:00).
+
+
+Finally, here a non-exhaustive overview of the international media coverage in print and online (with many republications). It was featured in 17 countries (Argentina, Austria, Belgium, Czech Republic, Denmark, France, Germany, Hungary, Indonesia, Italy, Mexico, Netherlands, Spain, Switzerland, United Kingdom, United States, Venezuela).
+
+
+
+```{r setup, include=FALSE}
+library(here)
+library(data.table)
+library(magrittr)
+library(reactable)
+```
+
+
+
+```{r table, echo=FALSE}
+
+dat <- fread(here("data/press-coverage-alps-snow-raw_utf8.csv"), encoding = "UTF-8")
+
+dat_sub <- dat[Date != "", 
+               .(Headline, URL, Source, Country, Reach)]
+
+reactable(
+  dat_sub,
+  filterable = T,
+  searchable = T,
+  highlight = T,
+  paginationType = "jump",
+  defaultPageSize = 5,
+  style = list(fontSize = "11px"),
+  columns = list(
+    #Datetime = colDef(minWidth = 100),
+    Headline = colDef(minWidth = 200),
+    Source = colDef(minWidth = 120),
+    Country = colDef(minWidth = 100),
+    Reach = colDef(minWidth = 80),
+    URL = colDef(
+      minWidth = 200,
+      html = TRUE,
+      cell = JS("function(cell) {
+              return '<a href=\"' + cell.value + '\">' + cell.value + '</a>'
+                        }")
+    )
+
+  )
+)
+```
+
+
+
+
+
+
+
+
+
