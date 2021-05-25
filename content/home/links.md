@@ -50,9 +50,13 @@ subtitle = ""
  css_class = ""
 +++
 
+Bolzano R group and meetup <br>
+https://www.bolzanor.eu/
 
+South Tyrol chapter of Scientists for Future movement <br>
 https://www.scientistsforfuture.bz/de/scientists-for-future-south-tyrol-deutsch/
 
+Marie-Curie Fellowship of B. Elzenbaumer <br>
 https://www.alpinecommunityeconomies.org/it/
 
 
