@@ -21,13 +21,17 @@ title: "Snow Dossier"
 A short brochure on snow intended for general readers, available in three languages (English, German, Italian).
 
 Online:
-[English](https://beta.eurac.edu/en/dossiers/dossier-snow-south-tyrol-alps) |
-[German](https://beta.eurac.edu/de/dossiers/dossier-schnee-suedtirol-alpen) |
-[Italian](https://beta.eurac.edu/it/dossiers/dossier-neve-alto-adige-alpi) 
+[English](https://www.eurac.edu/en/dossiers/dossier-snow-south-tyrol-alps) |
+[German](https://www.eurac.edu/de/dossiers/dossier-schnee-suedtirol-alpen) |
+[Italian](https://www.eurac.edu/it/dossiers/dossier-neve-alto-adige-alpi) 
 
 
 PDF:
 [English](https://webassets.eurac.edu/31538/1617864352-dossiersnowen.pdf) |
 [German](https://webassets.eurac.edu/31538/1614848383-dossierschneede.pdf) |
 [Italian](https://webassets.eurac.edu/31538/1614848423-dossierneveit.pdf) 
+
+
+
+See also the associated [media coverage](/communication/media-coverage-snow-dossier/)
 

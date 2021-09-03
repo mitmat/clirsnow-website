@@ -1,7 +1,7 @@
 ---
 authors:
 categories:
-date: "2021-03-22T00:00:00Z"
+date: "2021-03-18T00:00:00Z"
 draft: false
 featured: false
 image:
@@ -9,7 +9,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: ""
+lastmod: "2021-05-14T00:00:00Z"
 projects: []
 subtitle: "Overview of the coverage in press, online, and other media"
 summary: "Overview of the coverage in press, online, and other media"
@@ -20,14 +20,20 @@ title: "Media coverage: Alpine snow paper"
 
 The [paper](/research/paper_alps_snow) on observed snow depth trends in the European Alps received wide international coverage in media, thanks to the Communication Department of Eurac and to [GSCC](https://gsccnetwork.org/).
 
-The official press release is available in [English](https://beta.eurac.edu/en/magazine/less-of-the-white-stuff-snow-cover-has-been-declining-in-the-alps), [German](https://beta.eurac.edu/de/magazine/studie-zeigt-rueckgang-der-schneebedeckung-in-den-alpen), and [Italian](https://beta.eurac.edu/it/magazine/sempre-meno-bianco-studio-mostra-calo-copertura-nevosa-sulle-alpi). 
+The official press release is available in [English](https://www.eurac.edu/en/magazine/less-of-the-white-stuff-snow-cover-has-been-declining-in-the-alps), [German](https://www.eurac.edu/de/magazine/studie-zeigt-rueckgang-der-schneebedeckung-in-den-alpen), and [Italian](https://www.eurac.edu/it/magazine/sempre-meno-bianco-studio-mostra-calo-copertura-nevosa-sulle-alpi). 
 
 Partner institutions from Switzerland that were involved in the research posted [news](https://www.slf.ch/de/newsseiten/03-1/weniger-schnee-erste-alpenweite-analyse-von-schneehoehendaten.html) and a [blog article](https://www.meteoschweiz.admin.ch/home/aktuell/meteoschweiz-blog/meteoschweiz-blog.subpage.html/de/data/blogs/2021/3/weniger-schnee--erste-alpenweite-analyse-von-schne.html).
 
 The paper was selected as highlight paper by the journal The Cryosphere, and featured with a [news post](https://www.the-cryosphere.net/about/news_and_press/2021-03-18_observed-snow-depth-trends-in-the-european-alps-1971-to-2019.html).
 
-It has been featured in regional German television news (Rundschau, Bayerischer Rundfunk, 18.03.2021 16:00) and followed up by an interview in local South Tyrolean radio (Frühstücksradio, RAI Südtirol, 22.03.2021 8:00).
 
+It has been featured, among others, in:
+
+- an interview with national Italian newspaper (Il sole 24 ore)
+- an interview with national German newspaper (F.A.Z.)
+- regional German television news (Rundschau, Bayerischer Rundfunk, 18.03.2021 16:00)
+- an interview in local South Tyrolean radio (Frühstücksradio, RAI Südtirol, 22.03.2021 8:00)
+- Alice (main co-author) was interviewed by national German newspaper (S.Z.)
 
 Finally, here a non-exhaustive overview of the international media coverage in print and online (with many republications). It was featured in 17 countries (Argentina, Austria, Belgium, Czech Republic, Denmark, France, Germany, Hungary, Indonesia, Italy, Mexico, Netherlands, Spain, Switzerland, United Kingdom, United States, Venezuela).
 
