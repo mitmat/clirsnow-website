@@ -8,7 +8,7 @@ links:
 doi:
 slides:
 lastmod: "2021-09-03T00:00:00Z"
-summary: 
+summary: "R package, now on CRAN"
 tags:
 - code
 title: "eurocordexr: Makes it Easier to Work with Daily netCDF from EURO-CORDEX RCMs"
