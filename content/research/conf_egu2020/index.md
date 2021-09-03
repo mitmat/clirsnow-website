@@ -18,7 +18,7 @@ url_slides: "/pdf/Matiu - EGU2020 - Biascorrection RCM snow cover using MODIS.pd
 url_video: ""
 ---
 
-Contribution to the virtual conference [EGU 2020](https://www.egu2019.eu/):
+Contribution to the virtual conference [EGU 2020](https://www.egu2020.eu/):
 
 Biascorrected projections of snow cover fraction from EURO-CORDEX regional climate models with MODIS remote sensing observations for the European Alps
 
