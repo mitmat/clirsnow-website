@@ -3,7 +3,7 @@ authors:
 - mmatiu
 name: Michael Matiu
 title: Michael Matiu
-email: michael.matiu@eurac.edu
+email: mmatiu.eurac@gmail.com
 role: Marie Sklodowska-Curie Fellow
 
 bio: 
