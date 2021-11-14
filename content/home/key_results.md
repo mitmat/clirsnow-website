@@ -1,19 +1,14 @@
 +++
-# A Demo section created with the Blank widget.
-# Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
-# Add more sections by duplicating this file and customizing to your requirements.
-
-widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+# Hero widget.
+widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
-title = "Key results"
-subtitle = ""
+title = "Key Results"
 
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+# Hero image (optional). Enter filename of an image in the `static/media/` folder.
+# hero_media = "hero-academic.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -25,48 +20,35 @@ subtitle = ""
   # color = "navy"
   
   # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
+  # gradient_start = "#4bb4e3"
+  # gradient_end = "#2b94c3"
   
   # Background image.
-  # image = "snow1.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  # image = ""  # Name of image in `static/media/`.
+  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   # image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   # image_position = "center"  # Options include `left`, `center` (default), or `right`.
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
-
+  
   # Text color (true=light or false=dark).
-  # text_color_light = true
+  text_color_light = false
 
-[design.spacing]
-  # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
+# Call to action links (optional).
+#   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
+#   Remove a link/note by deleting a cta/note block.
+[cta]
+  url = "/dash-results/"
+  label = "Go to dashboard"
+  icon_pack = "fas"
+  icon = "chevron-circle-right"
+  
+[cta_alt]
+  url = "#research"
+  label = "Or view academic output"
 
-[advanced]
- # Custom CSS. 
- css_style = ""
- 
- # CSS class.
- css_class = ""
+# Note. An optional note to show underneath the links.
+[cta_note]
+  label = ""
 +++
 
-
-## Past
-
-
-The first Alpine wide analysis of station snow depth series. 
-
-  - Includes more than 2000 stations from Austria, France, Germany, Italy, Slovenia, and Switzerland.
-  - Identified snow regions in the Alps that match climatic forcing
-  - Long-term trends over 1971-2019
-
-[View results in dashboard](/past-snow/)
-
-
-## Present
-
-...planned for summer 2021...
-
-## Future
-
-...planned for fall 2021...
+**Interactive visualizations of research results**
