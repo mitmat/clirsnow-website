@@ -8,13 +8,13 @@
 
 
 
-<title>CliRSnow</title>
+<title>Results dashboard | CliRSnow</title>
 
-<meta property="og:title" content="CliRSnow" />
+<meta property="og:title" content="Results dashboard | CliRSnow" />
 
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 
-<link rel="icon" href="data:image/x-icon;" type="image/x-icon">
+<link rel="icon" href="other/logo_72x48.png">
 
 
 <script type="text/javascript">
@@ -47,6 +47,21 @@ window.FlexDashboardComponents = [];
 <script src="libs/featherlight-1.3.5/featherlight.min.js"></script>
 <link href="libs/prism-1.4.1/prism.css" rel="stylesheet" />
 <script src="libs/prism-1.4.1/prism.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, orientation=auto"/>
+<meta name="description" content="Snow cover in the European Alps: Interactive dashboard with the main results from CliRSnow, an EU-funded research project."/>
+<meta name="twitter:title" content="Results dashboard | CliRSnow"/>
+<meta name="twitter:description" content="Snow cover in the European Alps: Interactive dashboard with the main results from CliRSnow, an EU-funded research project."/>
+<meta name="twitter:url" content="https://clirsnow.netlify.app/dash-results/"/>
+<meta name="twitter:image" content="https://clirsnow.netlify.app/dash-results/other/preview-main-dash.png"/>
+<meta name="twitter:card" content="summary"/>
+<meta property="og:title" content="Results dashboard | CliRSnow"/>
+<meta property="og:description" content="Snow cover in the European Alps: Interactive dashboard with the main results from CliRSnow, an EU-funded research project."/>
+<meta property="og:url" content="https://clirsnow.netlify.app/dash-results/"/>
+<meta property="og:image" content="https://clirsnow.netlify.app/dash-results/other/preview-main-dash.png"/>
+<meta property="og:type" content="website"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="article:author" content="Michael Matiu"/>
+<meta property="article:author" content="Peter J. Zellner"/>
 <script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
 <link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
 <script src="libs/leaflet-1.3.1/leaflet.js"></script>
@@ -913,7 +928,7 @@ html, body {
   <img src="other/logo_72x48.png" class="navbar-logo"/>
 </span>
 <span class="navbar-brand">
-  CliRSnow
+  Results dashboard | CliRSnow
   <span class="navbar-author">
         </span>
 </span>
@@ -2723,6 +2738,9 @@ window.FlexDashboardComponents.push({
 <div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
 </div>
+<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+
+</div>
 <div id="row-1" class="section level2">
 <h2>Row 1</h2>
 <div id="stations" class="section level3">
@@ -2761,8 +2779,8 @@ window.FlexDashboardComponents.push({
 <div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
 </div>
-<div id="htmlwidget-efb23df15dc4b22b8985" style="width:576px;height:460.8px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-efb23df15dc4b22b8985">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[4,4,19,19,4],"lat":[43,49,49,43,43]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[43,49],"lng":[4,19]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-98c9e2827a0abf5d632c" style="width:576px;height:460.8px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-98c9e2827a0abf5d632c">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[4,4,19,19,4],"lat":[43,49,49,43,43]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[43,49],"lng":[4,19]}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="detailed-results" class="section level3">
 <h3>Detailed results</h3>
@@ -2806,7 +2824,7 @@ $(document).ready(function () {
 
 <div id="flexdashboard-source-code">
 <pre class="line-numbers"><code class="language-r">---
-title: "CliRSnow"
+title: "Results dashboard | CliRSnow"
 output: 
   flexdashboard::flex_dashboard:
     self_contained: false
@@ -2817,6 +2835,7 @@ output:
     social: menu
     source: embed
     logo: other/logo_72x48.png
+    favicon: other/logo_72x48.png
     navbar:
       - { title: "Back to CliRSnow homepage", href: "/", align: right }
 ---
@@ -2830,7 +2849,22 @@ library(leaflet)
 htmltools::tagList(fontawesome::fa_html_dependency())
 ```
 
-
+```{r meta, include=TRUE}
+library(metathis)
+meta() %>%
+  meta_description(
+    "Snow cover in the European Alps: Interactive dashboard with the main results from CliRSnow, an EU-funded research project."
+  ) %>% 
+  meta_viewport() %>% 
+  meta_social(
+    title = "Results dashboard | CliRSnow",
+    url = "https://clirsnow.netlify.app/dash-results/",
+    image = "https://clirsnow.netlify.app/dash-results/other/preview-main-dash.png",
+    og_type = "website",
+    og_author = c("Michael Matiu", "Peter J. Zellner"),
+    twitter_card_type = "summary"
+  )
+```
 
 ## Row 1
 
