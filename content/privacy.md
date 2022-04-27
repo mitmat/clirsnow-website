@@ -12,4 +12,4 @@ header:
   image: ""
 ---
 
-This site respects user privacy and does not store any cookies or collects otherwise any user information.
+This site respects user privacy. It does not use any cookies and does not collect any user information.

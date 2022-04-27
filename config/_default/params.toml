@@ -48,7 +48,7 @@ local_business_type = ""
 org_name = "European Research Council"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Marie-Curie Individual Fellowship 2019 CliRSnow of Michael Matiu at the Institute for Earth Observation, Eurac Research, Italy"
+description = "Marie-Curie Individual Fellowship of Michael Matiu at the Institute for Earth Observation, Eurac Research, Italy"
 
 ############################
 ## Site Features

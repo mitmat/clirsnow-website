@@ -32,7 +32,7 @@ organizations:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:michael.matiu@eurac.edu'
+  link: 'mailto:mmatiu.eurac@gmail.com'
 - icon: github
   icon_pack: fab
   link: https://github.com/mitmat
