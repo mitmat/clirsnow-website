@@ -22,9 +22,9 @@ window.FlexDashboardComponents = [];
 </script>
 
 <script id="flexdashboard-navbar" type="application/json">
-[{"title":"Back to CliRSnow homepage","href":"/","align":"right"},{"icon":"fa-share-alt","items":[{"title":"Twitter","icon":"fa-twitter"},{"title":"Facebook","icon":"fa-facebook"},{"title":"Google+","icon":"fa-google-plus"},{"title":"LinkedIn","icon":"fa-linkedin"},{"title":"Pinterest","icon":"fa-pinterest"}]},{"title":"Source Code","icon":"fa-code","href":"source_embed","align":"right"}]
+[{"icon":"fa-share","title":"CliRSnow","href":"/","align":"right"},{"icon":"fa-share-alt","items":[{"title":"Twitter","icon":"fa-twitter"},{"title":"Facebook","icon":"fa-facebook"},{"title":"Google+","icon":"fa-google-plus"},{"title":"LinkedIn","icon":"fa-linkedin"},{"title":"Pinterest","icon":"fa-pinterest"}]},{"title":"Source Code","icon":"fa-code","href":"source_embed","align":"right"}]
 </script>
-<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -69,9 +69,9 @@ window.FlexDashboardComponents = [];
 <script src="libs/proj4-2.6.2/proj4.min.js"></script>
 <script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
-<script src="libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
+<script src="libs/leaflet-binding-2.1.1/leaflet.js"></script>
 <script src="libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
-<script src="libs/leaflet-providers-plugin-2.0.4.1/leaflet-providers-plugin.js"></script>
+<script src="libs/leaflet-providers-plugin-2.1.1/leaflet-providers-plugin.js"></script>
 <style type="text/css">
 
 /*
@@ -2779,27 +2779,35 @@ window.FlexDashboardComponents.push({
 <div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
 </div>
-<div id="htmlwidget-98c9e2827a0abf5d632c" style="width:576px;height:460.8px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-98c9e2827a0abf5d632c">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[4,4,19,19,4],"lat":[43,49,49,43,43]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[43,49],"lng":[4,19]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-80c0ad8358a9df37d5a3" style="width:576px;height:460.8px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-80c0ad8358a9df37d5a3">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[4,4,19,19,4],"lat":[43,49,49,43,43]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[43,49],"lng":[4,19]}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="detailed-results" class="section level3">
 <h3>Detailed results</h3>
-<div id="how-the-topography-of-the-alps-influences-snow-patterns" class="section level4">
+<div id="how-the-topography-of-the-alps-influences-snow-patterns"
+class="section level4">
 <h4>How the topography of the Alps influences snow patterns</h4>
-<p>Statistical analysis of in-situ snow depth measurements and satellite observations.</p>
-<p><a href="./dash-climatology.html" class="btn btn-primary" role="button">Snow climatology</a></p>
+<p>Statistical analysis of in-situ snow depth measurements and satellite
+observations.</p>
+<p><a href="./dash-climatology.html" class="btn btn-primary" role="button">Snow
+climatology</a></p>
 <p><br></p>
 </div>
 <div id="how-snow-depth-has-changed-in-the-past" class="section level4">
 <h4>How snow depth has changed in the past</h4>
-<p>Long-term trends in snow depth and related parameters from in-situ station observations.</p>
-<p><a href="./dash-past.html" class="btn btn-primary" role="button">Past trends 1971-2019</a></p>
+<p>Long-term trends in snow depth and related parameters from in-situ
+station observations.</p>
+<p><a href="./dash-past.html" class="btn btn-primary" role="button">Past
+trends 1971-2019</a></p>
 <p><br></p>
 </div>
-<div id="how-snow-cover-might-change-in-the-future" class="section level4">
+<div id="how-snow-cover-might-change-in-the-future"
+class="section level4">
 <h4>How snow cover might change in the future</h4>
-<p>Future projections of snow cover fraction under different greenhouse gas concentration scenarios.</p>
-<p><a href="./dash-future.html" class="btn btn-primary" role="button">Snow cover duration 2000-2100</a></p>
+<p>Future projections of snow cover fraction under different greenhouse
+gas concentration scenarios.</p>
+<p><a href="./dash-future.html" class="btn btn-primary" role="button">Snow
+cover duration 2001-2100</a></p>
 </div>
 </div>
 </div>
@@ -2837,7 +2845,7 @@ output:
     logo: other/logo_72x48.png
     favicon: other/logo_72x48.png
     navbar:
-      - { title: "Back to CliRSnow homepage", href: "/", align: right }
+      - { icon: "fa-share", title: "CliRSnow", href: "/", align: right }
 ---
 
 ```{r setup, include=FALSE}
@@ -2946,7 +2954,7 @@ Long-term trends in snow depth and related parameters from in-situ station obser
 
 Future projections of snow cover fraction under different greenhouse gas concentration scenarios. 
 
-<a href="./dash-future.html" class="btn btn-primary" role="button">Snow cover duration 2000-2100</a>
+<a href="./dash-future.html" class="btn btn-primary" role="button">Snow cover duration 2001-2100</a>
 
 
 </code></pre>
