@@ -21,7 +21,7 @@ url_video: ""
 Data descriptor published for the cloud removal procedure and data using Eurac's MODIS snow maps. The paper is available [here](https://doi.org/10.3390/data5010001), and to be cited as:
 
 
-Matiu, M., Jacob, A. and Notarnicola, C.: Daily MODIS Snow Cover Maps for the European Alps from 2002 onwards at 250 m Horizontal Resolution Along with a Nearly Cloud-Free Version, Data, 5(1), 1, doi:10.3390/data5010001, 2020.
+> Matiu, M., Jacob, A. and Notarnicola, C.: Daily MODIS Snow Cover Maps for the European Alps from 2002 onwards at 250 m Horizontal Resolution Along with a Nearly Cloud-Free Version, Data, 5(1), 1, doi:10.3390/data5010001, 2020.
 
 
 See also the associated [dataset](/research/data_modis_cloudremoval/) and [code](/research/code_modis_cloudremoval/).

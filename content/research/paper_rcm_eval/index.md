@@ -22,7 +22,7 @@ url_video: ""
 The paper is available [here](https://doi.org/10.3390/atmos11010046), and to be cited as:
 
 
-Matiu, M., Petitta, M., Notarnicola, C. and Zebisch, M.: Evaluating Snow in EURO-CORDEX Regional Climate Models with Observations for the European Alps: Biases and Their Relationship to Orography, Temperature, and Precipitation Mismatches, Atmosphere, 11(1), 46, doi:10.3390/atmos11010046, 2020.
+> Matiu, M., Petitta, M., Notarnicola, C. and Zebisch, M.: Evaluating Snow in EURO-CORDEX Regional Climate Models with Observations for the European Alps: Biases and Their Relationship to Orography, Temperature, and Precipitation Mismatches, Atmosphere, 11(1), 46, doi:10.3390/atmos11010046, 2020.
 
 
 ## Abstract
